@@ -7,7 +7,7 @@ Pengerjaan capstone project modul 3 ini akan melatih siswa dalam melakukan anali
 <hr>
 
 # California House Price Prediction Using Machine Learning
-<hr>
+
 
 #### By Muhammad Al-farisy
 <hr>
