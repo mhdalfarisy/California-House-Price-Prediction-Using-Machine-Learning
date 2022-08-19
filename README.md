@@ -50,3 +50,4 @@ Pengerjaan capstone project modul 3 ini akan melatih siswa dalam melakukan anali
 ![saran](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/saran.JPG)
 
 ![terima kasih](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/thanks.JPG)
+
