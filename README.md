@@ -1,7 +1,7 @@
 # California House Price Prediction Using Machine Learning
 <hr>
 
-![Header Perumahan California](https://github.com/mhdalfarisy/California-House-Predict-Price/blob/main/gambar/tierno-exterior-min.jpg)
+![Header Perumahan California](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/1-Skyline_Street-Scene_CC_RET_conversion1_920.jpg)
 
 
 #### By Muhammad Al-farisy
