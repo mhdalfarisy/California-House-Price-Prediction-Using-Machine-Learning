@@ -7,6 +7,6 @@
 #### By Muhammad Al-farisy
 <hr>
 
-[![daftar isi](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/daftar%20isi.JPG)]
+[![daftar isi](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/latar%20belakang.JPG)]
 
 [![daftar isi](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/daftar%20isi.JPG)]
