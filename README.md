@@ -33,8 +33,7 @@
 
 ![nmlvsuml](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/nmlvsuml.JPG)
 
-
-![kesimpulan](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/kesimpulan.JPG)
+![kesimpulan](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/kesimpulan.jpg)
 
 ![saran](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/saran.JPG)
 
