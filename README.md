@@ -1,3 +1,5 @@
+# Project Introduction
+<hr>
 Setelah menyelesaikan seluruh materi modul 3, siswa diharapkan sudah memiliki pengetahuan fundamental terkait pemodelan machine learning dan kegunaannya. Untuk dapat
 mengimplementasikan materi yang telah dipelajari, setiap siswa wajib mengerjakan dan menyelesaikan capstone project modul 3.
 
