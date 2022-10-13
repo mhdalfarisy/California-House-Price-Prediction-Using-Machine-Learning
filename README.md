@@ -76,7 +76,7 @@ Penggunaan MAPE ini untuk melihat berapa persentase rata-rata error antar nilai 
 ---
 
 
-## **KESIMPULAN**
+## 4. **KESIMPULAN**
 1. Berdasarkan 5 based model yang sudah di testing prediksi harga rumah, terdapat model algoritma XGBoost memiliki MAE dan MAPE dengan skor errornya terendah sehingga model algoritma ini dijadikan model akhir dan di tuning untuk memaksimalkan performa. Dari hasil model algoritma XGBoost yang dituning, terdapat juga hasil coefisien yang memiliki pengaruh tinggi pada penentuan harga rumah yaitu ada pada feature median_income dan feature ocean_proximity.
 <br><br>
 2. Model machine learning ini memiliki MAE sekitar 28293.0 US Dollar dengan MAPE 0.168612 (16 %), artinya rata rata harga yang meleset berkisar 28293.0 atau sekitar 16 % dari harga aktual. Pada penerapannya jika harga prediksi lebih tinggi dari pada harga aktual atau harga prediksi lebih rendah dari harga aktual dipengaruhi oleh nilai dari feature median_income dan feature ocean_proximity.
@@ -88,7 +88,7 @@ Penggunaan MAPE ini untuk melihat berapa persentase rata-rata error antar nilai 
    2. Jika harga prediksi lebih dari pada harga, maka agent properti dapat menaikkan harga berdasarkan harga prediksi sehingga fee yang diterima juga lebih besar
    3. Penentuan harga lebih stabil karena memiliki dasar penentuan harga yang spesifik
    
-## **SARAN**
+## 5. **SARAN**
 Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar lebih akurat :
 
 1. Penambahan feature yang memiliki korelasi langsung dengan harga rumah, misalnya informasi luas tanah, luas bangunan, informasi kondisi bangunan, fasilitas diperkarangan rumah (taman di teras rumah, garasi mobil, tempat menjemur pakaian),fasilitas umum di lingkungan rumah, jarak rumah ke tempat umum (ke tempat transportasi umum, tempat pembelanjaan, tempat ibadah dan rumah sakit), Ukuran kapasitas Watt Listrik dan hal hal yang berkaitan erat dengan fasilitas rumah.
