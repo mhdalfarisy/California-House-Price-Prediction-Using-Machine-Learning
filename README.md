@@ -63,8 +63,6 @@ Penggunaan MAPE ini untuk melihat berapa persentase rata-rata error antar nilai 
 | median_house_value | Nilai median rumah untuk rumah tangga dalam satu blok (diukur dalam Dolar AS) |
 
 # **3. Data Preprocessing**
-#
-#
 - Quick EDA
 - Mengecek informasi kolom
 - Mengecek jumlah baris dan kolom
@@ -73,8 +71,6 @@ Penggunaan MAPE ini untuk melihat berapa persentase rata-rata error antar nilai 
 - Mengecek Korelasi data
 - Mengecek distribusi data
 - Mengecek outlier
----
-
 
 ## 4. **KESIMPULAN**
 1. Berdasarkan 5 based model yang sudah di testing prediksi harga rumah, terdapat model algoritma XGBoost memiliki MAE dan MAPE dengan skor errornya terendah sehingga model algoritma ini dijadikan model akhir dan di tuning untuk memaksimalkan performa. Dari hasil model algoritma XGBoost yang dituning, terdapat juga hasil coefisien yang memiliki pengaruh tinggi pada penentuan harga rumah yaitu ada pada feature median_income dan feature ocean_proximity.
