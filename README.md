@@ -113,7 +113,9 @@ Dari sample perbandingan data dengan harga sebelm prediksi dan harga setelah pre
     - Index 2 **(Case Harga prediksi lebih rendah dari harga aktual)** : Median_house_values bernilai 285800.0 US Dollar, Harga_Prediksi_Rumah bernilai 276521.0 US Dollar dan selisih antara harga aktual dengan harga prediksi 9279.0 US Dollar. Artinya lokasi perumahan yang dijual bukan dikawasan elit yang penduduknya tidak memiliki pendapatan yang tinggi dan berlokasi dekat dengan laut.
 
 #### **Kesimpulan**
-1. Berdasarkan 5 based model yang sudah di testing prediksi harga rumah, terdapat model algoritma XGBoost memiliki MAE dan MAPE dengan skor errornya terendah sehingga model algoritma ini dijadikan model akhir dan di tuning untuk memaksimalkan performa. Dari hasil model algoritma XGBoost yang dituning, terdapat juga hasil coefisien yang memiliki pengaruh tinggi pada penentuan harga rumah yaitu ada pada feature median_income dan feature ocean_proximity.
+1. Perumahan yang paling banyak di huni berasal dari daerah <1H Ocean
+2. Harga perumahan tertinggi pada saat itu untuk daerah <1H Ocean berkisar 500000 USD
+3. Berdasarkan 5 based model yang sudah di testing prediksi harga rumah, terdapat model algoritma XGBoost memiliki MAE dan MAPE dengan skor errornya terendah sehingga model algoritma ini dijadikan model akhir dan di tuning untuk memaksimalkan performa. Dari hasil model algoritma XGBoost yang dituning, terdapat juga hasil coefisien yang memiliki pengaruh tinggi pada penentuan harga rumah yaitu ada pada feature median_income dan feature ocean_proximity (INLAND).
 <br><br>
 2. Model machine learning ini memiliki MAE sekitar 28293.0 US Dollar dengan MAPE 0.168612 (16 %), artinya rata rata harga yang meleset berkisar 28293.0 atau sekitar 16 % dari harga aktual. Pada penerapannya jika harga prediksi lebih tinggi dari pada harga aktual atau harga prediksi lebih rendah dari harga aktual dipengaruhi oleh nilai dari feature median_income dan feature ocean_proximity.
 <br><br>
