@@ -109,9 +109,7 @@ perbedaan menggunakan machine learning dan tidak menggunakan machine learning :
 Dari sample perbandingan data dengan harga sebelm prediksi dan harga setelah prediksi terdapat perbedaan. Harga prediksi lebih tinggi, namun perbedaan ini didukung oleh feature feature yang memiliki pengaruh tinggi terhadap target. Disini agent properti dapat menggunakan nilai dari data aktual untuk menentukan harga rumah dapat juga menggunakan harga prediksi, jika menggunakan harga prediksi akan mendapatkan keuntungan lebih dari total selisih dengan harga aktual selain itu semakin tinggi harga yang ditentukan (menggunakan harga prediksi) berdasarkan spesifikasi perumahannya maka semakin besar juga fee yang diterima agent properti. Dalam hal ini spesifikasinya berkaitan dengan feature yang ada pada dataset.
 
 - Dari sample perbandingan data di atas, terdapat 2 index dengan nilai prediksi yang naik dan turun. Penjelasan sebagai berikut :
-    #
     - Index 1 **(Case Harga prediksi lebih tinggi)** : Median_house_values bernilai 100000.0 US Dollar, Harga_Prediksi_Rumah bernilai 104906.0 US Dollar dan selisih antara harga aktual dengan harga prediksi 4906.0 US Dollar. Artinya lokasi perumahan yang dijual adalah perumahan di kawasan elit yang penduduknya memiliki median_income yang tinggi dan berlokasi jauh dari laut sehingga harga dari prediksi mengalami kenaikan.
-    #
     - Index 2 **(Case Harga prediksi lebih rendah dari harga aktual)** : Median_house_values bernilai 285800.0 US Dollar, Harga_Prediksi_Rumah bernilai 276521.0 US Dollar dan selisih antara harga aktual dengan harga prediksi 9279.0 US Dollar. Artinya lokasi perumahan yang dijual bukan dikawasan elit yang penduduknya tidak memiliki pendapatan yang tinggi dan berlokasi dekat dengan laut.
 
 #### **Kesimpulan**
