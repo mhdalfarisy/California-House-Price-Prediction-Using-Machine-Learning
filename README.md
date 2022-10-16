@@ -93,10 +93,14 @@ Dalam melakukan tuning, disini menggunakan **RandomizedSearchCV** karena pada hy
 Hasil sebelum tuning 
 
 ![m4](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/before%20tuning.JPG)
- 
+
+Hasil sebelum tuning memiliki MAE dengan total 29072 USD dengan persentase MAPE 0,17%
+
 Hasil setelah tuning
 
 ![m3](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/after%20tuning.JPG)
+
+Setelah dilakukan tuning error MAE mengalami penurunan menjadi 28293 USD dengan total persentase error 0,16%.
 
 
 #### **Kesimpulan**
