@@ -69,9 +69,35 @@ Penggunaan MAPE ini untuk melihat berapa persentase rata-rata error antar nilai 
 
 ### **Machine Learning**
 
-#### **Feature Enginering**
-
 #### **Modeling Machine Learning**
+
+![m1](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/training%20before%20tuning.JPG)
+
+Ketika dilakukan training pada model machine learning, **Training Model XGBoost Regressor** memiliki nilai error dari *MEAN* dan *MAPE* terendah, dan karena sudah mendapatkan gambaran tentang training datanya, kemudian dilakukan testing data untuk mendapatkan base model nya.
+
+![m2](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/testing%20before%20tuning.JPG)
+
+Ketika dilakukan testing terdapat **Testing Model XGBoost Regressor** nilai error terendah *MEAN* dan *MAPE* sehingga model ini menjadi base model machine learning. Selanjutnya akan dilakukan tunning untuk menurunkan angka error nya. **Hyperparameter tuning XGBoost Regressor** yang digunakan adalah :
+
+- **max_depth** = merupakan kedalaman maksimum pohon, ini digunakan untuk mengontrol over-fitting karena kedalaman yang lebih tinggi akan memungkinkan model untuk mempelajari hubungan yang sangat spesifik untuk sampel tertentu.
+- **learning_rate** = Hal ini analog dengan kecepatan belajar, penyusutan ukuran langkah yang digunakan dalam pembaruan untuk mencegah overfitting.
+- **n_estimators** = Jumlah pohon yang ingin bangun sebelum mengambil voting maksimum atau rata-rata prediksi. Jumlah pohon yang lebih tinggi memberi kinerja yang lebih baik tetapi membuat running laptop sedikit lama.
+- **subsample** = Jumlah baris tiap pohon
+- **gamma** = Node dipecah hanya ketika hasil split memberikan pengurangan nilai positif,semakin besar nilainya, semakin konservatif/simpel modelnya
+- **colsample_bytree** = Jumlah feature subsampel kolom saat membangun setiap pohon. Subsampling terjadi sekali untuk setiap pohon yang dibangun
+- **reg_alpha** = Digunakan dalam kasus dimensi yang sangat tinggi sehingga algoritma berjalan lebih cepat saat diimplementasikan.
+Peningkatan nilai ini akan membuat model lebih konservatif.
+
+Dalam melakukan tuning, disini menggunakan **RandomizedSearchCV** karena pada hyperparameter xgb saya banyak menggunakan model parameternya sehingga randomized search digunakan untuk melakukan komputasi lebih efisien.
+
+Hasil sebelum tuning 
+
+![m4](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/before%20tuning.JPG)
+ 
+Hasil setelah tuning
+
+![m3](https://github.com/mhdalfarisy/California-House-Price-Prediction-Using-Machine-Learning/blob/main/gambar/after%20tuning.JPG)
+
 
 #### **Kesimpulan**
 1. Berdasarkan 5 based model yang sudah di testing prediksi harga rumah, terdapat model algoritma XGBoost memiliki MAE dan MAPE dengan skor errornya terendah sehingga model algoritma ini dijadikan model akhir dan di tuning untuk memaksimalkan performa. Dari hasil model algoritma XGBoost yang dituning, terdapat juga hasil coefisien yang memiliki pengaruh tinggi pada penentuan harga rumah yaitu ada pada feature median_income dan feature ocean_proximity.
