@@ -12,6 +12,7 @@
   - [Saran](#saran)
   - [Kesimpulan](#kesimpulan)
 - [Others Data Visualization Report](#others-data-visualization-report)
+- [Others Project](#others-project)
 
 ### **Problem Statement**
 
@@ -136,10 +137,10 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 1. Untuk mendapatkan hasil yang maksimal pada machine learning (**Project Limitation**) tidak disarankan menggunakan data perumahan yang berumur di atas 50 tahun dan harga rumah tidak diatas 462200 US Dollar karena akan berisiko memiliki error yang sangat tinggi
 
 <br>
+---
 
-# **OTHERS PROJECT :**
+# **OTHERS PROJECT**
 
-<br>
 <table>
 <tbody>
  <tr>
@@ -165,7 +166,7 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 <tbody>
  <tr>
  
-<h1 align="left">Machine Learning</h1>
+<h1 align="left">Machine Learning - Supervised</h1>
 
 <td align="left" width="20%">
 <span><b><left>California House Price</center></b></span> 
@@ -193,6 +194,23 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 <img height=150px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/advance-career.jpg"> 
 </td>
 
+</tbody>
+</table>
+ <tr>
+  
+<h1 align="left">Machine Learning - Unsupervised</h1>  
+
+<table>
+<tbody>
+ <tr>  
+  
+<!-- <tr> -->
+<td align="left" width="25%">
+<span><b><left>Segmentation Customer Mall</center></b></span> 
+<code><a href="https://github.com/mhdalfarisy/Segmentation-Customer-Mall" target="_blank">
+<img height=200px src="https://github.com/mhdalfarisy/Segmentation-Customer-Mall/blob/main/2.-Customer-Segmentation.jpg"> 
+</td>
+ 
 </tbody>
 </table>
  <tr>
