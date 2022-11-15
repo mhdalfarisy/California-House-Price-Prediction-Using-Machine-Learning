@@ -139,8 +139,11 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 <br>
 ---
 
+<br>
+
 # **OTHERS PROJECT**
 
+<br>
 <table>
 <tbody>
  <tr>
@@ -205,11 +208,18 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
  <tr>  
   
 <!-- <tr> -->
-<td align="left" width="25%">
+<td align="center" width="50%">
 <span><b><left>Segmentation Customer Mall</center></b></span> 
 <code><a href="https://github.com/mhdalfarisy/Segmentation-Customer-Mall" target="_blank">
-<img height=200px src="https://github.com/mhdalfarisy/Segmentation-Customer-Mall/blob/main/2.-Customer-Segmentation.jpg"> 
+<img height=250px src="https://github.com/mhdalfarisy/Segmentation-Customer-Mall/blob/main/2.-Customer-Segmentation.jpg"> 
 </td>
+ 
+<!-- <tr> -->
+<td align="center" width="50%">
+<span><b><left>Segmentation Customer Supermarket</center></b></span>
+<code><a href="https://github.com/mhdalfarisy/Customer-Supermarket" target="_blank">
+<img height=250px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/istockphoto-1254636143-612x612.jpg"> 
+</td> 
  
 </tbody>
 </table>
@@ -223,7 +233,7 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 
 <h1 align="left">Data Visualization</h1>
   
-<td align="left" width="30%">
+<td align="left" width="20%">
 <span><b><Left>E-Commers Pakistan</center></b></span> 
 <code><a href="https://public.tableau.com/app/profile/muhammad.al.farisy6147/viz/ProjectE-CommersPakistanDashboard/Dashboard1" target="_blank">
 <img height=200px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/Pakistan%20Visualisasi.png"> 
@@ -240,7 +250,7 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 <td align="left" width="25%">
 <span><b><left>Telco Customer Churn</center></b></span> 
 <code><a href="https://public.tableau.com/app/profile/muhammad.al.farisy6147/viz/CustomerChunVisualization/Dashboard2?publish=yes" target="_blank">
-<img height=200px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/Telco%20Customer%20%2022.png"> 
+<img height=200px src="https://github.com/mhdalfarisy/mhdalfarisy/blob/main/Telco%20Customer%20Churn.png"> 
 </td>
  
 </tbody>
