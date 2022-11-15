@@ -141,6 +141,8 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 
 <br>
 
+<br>
+
 # **OTHERS PROJECT**
 
 <br>
@@ -305,3 +307,4 @@ Hal-hal yang perlu dilakukan untuk mengembangkan model machine learning ini agar
 </td>    -->
 
 ⭐️ From [Muhammad Al-farisy](https://github.com/mhdalfarisy)
+
